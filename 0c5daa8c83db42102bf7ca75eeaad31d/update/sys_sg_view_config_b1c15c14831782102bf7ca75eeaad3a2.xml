@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config">
+    <sys_sg_view_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <description/>
+        <name>My To do\'s List Screen View Config</name>
+        <scratchpad_script/>
+        <sys_class_name>sys_sg_view_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 13:47:53</sys_created_on>
+        <sys_id>b1c15c14831782102bf7ca75eeaad3a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My To do\'s List Screen View Config</sys_name>
+        <sys_package display_value="To Do" source="x_1078619_to_do">0c5daa8c83db42102bf7ca75eeaad31d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="To Do">0c5daa8c83db42102bf7ca75eeaad31d</sys_scope>
+        <sys_update_name>sys_sg_view_config_b1c15c14831782102bf7ca75eeaad3a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 13:47:53</sys_updated_on>
+        <table>x_1078619_to_do_to_do</table>
+        <template display_value="Template 01">6bb0be5c41a71010f877183fc9b8be0c</template>
+    </sys_sg_view_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=b1c15c14831782102bf7ca75eeaad3a2"/>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 12:54:49</sys_created_on>
+        <sys_id>54a5c41483d382102bf7ca75eeaad3bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x.1078619.to-do-workspace.*.x_1078619_to_do.user</sys_name>
+        <sys_package display_value="To Do" source="x_1078619_to_do">0c5daa8c83db42102bf7ca75eeaad31d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="To Do">0c5daa8c83db42102bf7ca75eeaad31d</sys_scope>
+        <sys_security_acl display_value="x.1078619.to-do-workspace.*">f29584144fd382101cc82538c8c0c415</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_54a5c41483d382102bf7ca75eeaad3bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 12:54:49</sys_updated_on>
+        <sys_user_role display_value="x_1078619_to_do.user" name="x_1078619_to_do.user">9c5daa8c83db42102bf7ca75eeaad39b</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

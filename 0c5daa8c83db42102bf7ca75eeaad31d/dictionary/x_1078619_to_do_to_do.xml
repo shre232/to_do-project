@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="9dd3574083df42102bf7ca75eeaad3f0" label="To Do" max_length="40" name="x_1078619_to_do_to_do" type="collection">
+    <element db_object_id="9dd3574083df42102bf7ca75eeaad3f0" label="To Do" max_length="40" name="x_1078619_to_do_to_do" text_index="true" type="collection">
         <element label="Due Date" max_length="40" name="closed_date" type="glide_date"/>
         <element label="Send Reminder" max_length="40" name="send_reminder" type="boolean"/>
         <element choice="3" default="not_started" label="Progress" max_length="40" name="progress" type="choice">

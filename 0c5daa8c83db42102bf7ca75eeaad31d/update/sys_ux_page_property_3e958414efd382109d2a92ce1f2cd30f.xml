@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>sys_ux_applicability sys_id for Workspace audience</description>
+        <name>wbApplicabilityConfigId</name>
+        <page display_value="To Do Workspace">fe958414fed382109fa2771baf79251e</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 12:54:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>3e958414efd382109d2a92ce1f2cd30f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>wbApplicabilityConfigId</sys_name>
+        <sys_package display_value="To Do" source="x_1078619_to_do">0c5daa8c83db42102bf7ca75eeaad31d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="To Do">0c5daa8c83db42102bf7ca75eeaad31d</sys_scope>
+        <sys_update_name>sys_ux_page_property_3e958414efd382109d2a92ce1f2cd30f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 12:54:48</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1078619_to_do.fe958414fed382109fa2771baf79251e.root.wbApplicabilityConfigId</unique_name>
+        <value>40a5c41483d382102bf7ca75eeaad362</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=3e958414efd382109d2a92ce1f2cd30f"/>
+</record_update>

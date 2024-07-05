@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream">
+    <sys_sg_item_stream action="INSERT_OR_UPDATE">
+        <data_item display_value="My to do Data Item">cac1dc14831782102bf7ca75eeaad300</data_item>
+        <interleaved_field/>
+        <name>9ec1dc14831782102bf7ca75eeaad394 Item Stream</name>
+        <sys_class_name>sys_sg_item_stream</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 13:47:56</sys_created_on>
+        <sys_id>d6c1dc14831782102bf7ca75eeaad398</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>9ec1dc14831782102bf7ca75eeaad394 Item Stream</sys_name>
+        <sys_package display_value="To Do" source="x_1078619_to_do">0c5daa8c83db42102bf7ca75eeaad31d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="To Do">0c5daa8c83db42102bf7ca75eeaad31d</sys_scope>
+        <sys_update_name>sys_sg_item_stream_d6c1dc14831782102bf7ca75eeaad398</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 13:47:56</sys_updated_on>
+        <table/>
+    </sys_sg_item_stream>
+</record_update>

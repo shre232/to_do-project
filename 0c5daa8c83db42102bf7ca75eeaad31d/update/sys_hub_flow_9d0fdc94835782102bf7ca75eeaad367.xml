@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description>Send a reminder email to the Assigned to one day before the Due date</description>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>send_reminder_email_one_day_before_due_date</internal_name>
+        <label_cache>[{"name":"821a1f1b-a73a-499b-9fd6-27edeb0779f8.item.assigned_to.first_name","label":"2 - For Each➛To Do Record➛Assigned to➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"67517f95-67ed-4e73-8bf2-a10ad94aa1f4":[null],"9a736969-f202-4e1a-91ed-63657f0eabf4":[null]}},{"name":"821a1f1b-a73a-499b-9fd6-27edeb0779f8.item.to_do_item","label":"2 - For Each➛To Do Record➛To do item","reference":"","reference_display":"To do item","type":"string","base_type":"string","parent_table_name":"x_1078619_to_do_to_do","column_name":"to_do_item","usedInstances":{"67517f95-67ed-4e73-8bf2-a10ad94aa1f4":["ah_subject",null],"9a736969-f202-4e1a-91ed-63657f0eabf4":["ah_subject",null]}},{"name":"821a1f1b-a73a-499b-9fd6-27edeb0779f8.item.assigned_to.email","label":"2 - For Each➛To Do Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"67517f95-67ed-4e73-8bf2-a10ad94aa1f4":["ah_to"],"9a736969-f202-4e1a-91ed-63657f0eabf4":["ah_to"]}},{"name":"821a1f1b-a73a-499b-9fd6-27edeb0779f8.item","label":"2 - For Each➛To Do Record","reference":"x_1078619_to_do_to_do","reference_display":"To Do Record","type":"reference","base_type":"reference","usedInstances":{"67517f95-67ed-4e73-8bf2-a10ad94aa1f4":["record",null],"9a736969-f202-4e1a-91ed-63657f0eabf4":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"1e8c70da-2360-4844-8b05-880d9d0411db.Records","label":"1 - Look Up Records➛To Do Records","reference":"x_1078619_to_do_to_do","reference_display":"To Do Records","type":"records","base_type":"records","usedInstances":{"821a1f1b-a73a-499b-9fd6-27edeb0779f8":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Send reminder email one day before Due date</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 14:45:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9d0fdc94835782102bf7ca75eeaad367</sys_id>
+        <sys_mod_count>70</sys_mod_count>
+        <sys_name>Send reminder email one day before Due date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="To Do" source="x_1078619_to_do">0c5daa8c83db42102bf7ca75eeaad31d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="To Do">0c5daa8c83db42102bf7ca75eeaad31d</sys_scope>
+        <sys_update_name>sys_hub_flow_9d0fdc94835782102bf7ca75eeaad367</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 15:22:29</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=9d0fdc94835782102bf7ca75eeaad367"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9d0fdc94835782102bf7ca75eeaad367"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=9d0fdc94835782102bf7ca75eeaad367^sys_idNOT INf85f5094835782102bf7ca75eeaad382"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Send reminder email one day before Due date">9d0fdc94835782102bf7ca75eeaad367</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 14:47:05</sys_created_on>
+        <sys_id>f85f5094835782102bf7ca75eeaad382</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 15:22:28</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f85f5094835782102bf7ca75eeaad382"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>f85f5094835782102bf7ca75eeaad382</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 14:47:05</sys_created_on>
+        <sys_id>305f5094835782102bf7ca75eeaad384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 14:47:05</sys_updated_on>
+        <value>1970-01-01 21:00:00</value>
+        <variable display_value="Time">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_89142dc0c32222002841b63b12d3ae8a^id=f85f5094835782102bf7ca75eeaad382"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=9d0fdc94835782102bf7ca75eeaad367"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=9d0fdc94835782102bf7ca75eeaad367^sys_idNOT IN1d0fdc94835782102bf7ca75eeaad368"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>9d0fdc94835782102bf7ca75eeaad367</id>
+        <name>Send reminder email one day before Due date</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 14:45:45</sys_created_on>
+        <sys_id>1d0fdc94835782102bf7ca75eeaad368</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 14:45:45</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=1d0fdc94835782102bf7ca75eeaad368"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=9d0fdc94835782102bf7ca75eeaad367"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=9d0fdc94835782102bf7ca75eeaad367"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9d0fdc94835782102bf7ca75eeaad367"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=9d0fdc94835782102bf7ca75eeaad367^sys_idNOT IN6f302818835782102bf7ca75eeaad3ab,e625e05c835782102bf7ca75eeaad3a9"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Send reminder email one day before Due date">9d0fdc94835782102bf7ca75eeaad367</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 14:51:05</sys_created_on>
+        <sys_id>6f302818835782102bf7ca75eeaad3ab</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="To Do">0c5daa8c83db42102bf7ca75eeaad31d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 15:22:29</sys_updated_on>
+        <ui_id>1e8c70da-2360-4844-8b05-880d9d0411db</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6f302818835782102bf7ca75eeaad3ab"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6f302818835782102bf7ca75eeaad3ab</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 14:51:45</sys_created_on>
+        <sys_id>1560e818835782102bf7ca75eeaad3f6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 14:55:44</sys_updated_on>
+        <value>send_reminder=true^closed_dateONTomorrow@javascript:gs.beginningOfTomorrow()@javascript:gs.endOfTomorrow()</value>
+        <variable display_value="Conditions">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6f302818835782102bf7ca75eeaad3ab</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 14:51:45</sys_created_on>
+        <sys_id>5160e818835782102bf7ca75eeaad3f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 14:51:45</sys_updated_on>
+        <value>number</value>
+        <variable display_value="Order by">c7400a1587003300663ca1bb36cb0b55</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6f302818835782102bf7ca75eeaad3ab</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 14:51:45</sys_created_on>
+        <sys_id>d560e818835782102bf7ca75eeaad3f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 14:51:45</sys_updated_on>
+        <value>x_1078619_to_do_to_do</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b^id=6f302818835782102bf7ca75eeaad3ab"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6f302818835782102bf7ca75eeaad3ab"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6f302818835782102bf7ca75eeaad3ab"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Send reminder email one day before Due date">9d0fdc94835782102bf7ca75eeaad367</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>821a1f1b-a73a-499b-9fd6-27edeb0779f8</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 15:12:36</sys_created_on>
+        <sys_id>e625e05c835782102bf7ca75eeaad3a9</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="To Do">0c5daa8c83db42102bf7ca75eeaad31d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 15:22:29</sys_updated_on>
+        <ui_id>9a736969-f202-4e1a-91ed-63657f0eabf4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e625e05c835782102bf7ca75eeaad3a9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e625e05c835782102bf7ca75eeaad3a9</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 15:18:35</sys_created_on>
+        <sys_id>9e86ec10839782102bf7ca75eeaad3bc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 15:22:29</sys_updated_on>
+        <value>Shre@guerrillamail.com</value>
+        <variable display_value="CC">d9806bf4a70323008299b39f087901e0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e625e05c835782102bf7ca75eeaad3a9</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 15:18:35</sys_created_on>
+        <sys_id>d286ec10839782102bf7ca75eeaad3bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 15:18:35</sys_updated_on>
+        <value/>
+        <variable display_value="Body">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e625e05c835782102bf7ca75eeaad3a9</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 15:18:35</sys_created_on>
+        <sys_id>da86ec10839782102bf7ca75eeaad3bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 15:18:35</sys_updated_on>
+        <value>x_1078619_to_do_to_do</value>
+        <variable display_value="Table">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e625e05c835782102bf7ca75eeaad3a9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>e625e05c835782102bf7ca75eeaad3a9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 15:18:35</sys_created_on>
+        <sys_id>1a86ec10839782102bf7ca75eeaad3bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 15:18:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>&lt;p data-tinymcerootblock=""&gt;Dear&amp;nbsp;&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:30c8717b-2f22-4553-a386-511f51006ffa}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:30c8717b-2f22-4553-a386-511f51006ffa}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="2 - For Each &amp;gt; To Do Record &amp;gt; Assigned to &amp;gt; First name"&gt;&lt;span class="pill-start"&gt;2 - For Each&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;First name&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_30c8717b-2f22-4553-a386-511f51006ffa" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;,&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span style="font-weight: bold; font-size: 16px; line-height: 1.5; font-family: 'Source Sans Pro', sans-serif; letter-spacing: 0.02em; color: #293e40;"&gt;As you requested, we are sending a courtesy reminder about a To Do item that is due tomorrow.&lt;/span&gt;&lt;/p&gt;
+&lt;p data-tinymcerootblock=""&gt;&lt;span style="font-weight: bold; font-size: 16px; line-height: 1.5; font-family: 'Source Sans Pro', sans-serif; letter-spacing: 0.02em; color: #293e40;"&gt;&lt;span style="line-height: 1.5; letter-spacing: 0.02em;"&gt;To Do item:&lt;/span&gt;&lt;span style="font-weight: 400; letter-spacing: 0.16px;"&gt;&amp;nbsp;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillvalue="{{fd_transform:fe9d31a7-fc22-49a1-807f-00bd96ed1cd2}}"&gt;&lt;span class="data_pill  accepts_transform_functions" tabindex="0" contenteditable="false" data-pillvalue="{{fd_transform:fe9d31a7-fc22-49a1-807f-00bd96ed1cd2}}"&gt;&lt;span class="data-pill-content-container"&gt;&lt;span class="pills"&gt;&lt;span class="pill-text" data-tooltip-id="ah_tooltipTop" data-tooltip-content="2 - For Each &amp;gt; To Do Record &amp;gt; To do item"&gt;&lt;span class="pill-start"&gt;2 - For Each&lt;/span&gt;&lt;span class="pill-arrow"&gt;&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;...&lt;span class="data-pill-label-caret"&gt;&lt;span class="data-pill-label-arrow"&gt;➛&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="pill-end"&gt;To do item&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;button id="transform_function_facade_fe9d31a7-fc22-49a1-807f-00bd96ed1cd2" class="transform_function_facade no_transform_applied"&gt;&lt;span class="inline-script-icon"&gt;&lt;span style="display: none;"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;/button&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_cc</field>
+        <id>e625e05c835782102bf7ca75eeaad3a9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 15:18:35</sys_created_on>
+        <sys_id>5286ec10839782102bf7ca75eeaad3bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 15:18:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>e625e05c835782102bf7ca75eeaad3a9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 15:18:35</sys_created_on>
+        <sys_id>9e86ec10839782102bf7ca75eeaad3bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 15:18:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>To Do Due Tomorrow:{{821a1f1b-a73a-499b-9fd6-27edeb0779f8.item.to_do_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>e625e05c835782102bf7ca75eeaad3a9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 15:18:35</sys_created_on>
+        <sys_id>9e86ec10839782102bf7ca75eeaad3ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 15:18:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{821a1f1b-a73a-499b-9fd6-27edeb0779f8.item.assigned_to.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>e625e05c835782102bf7ca75eeaad3a9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 15:18:35</sys_created_on>
+        <sys_id>5686ec10839782102bf7ca75eeaad3bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 15:18:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{821a1f1b-a73a-499b-9fd6-27edeb0779f8.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>e625e05c835782102bf7ca75eeaad3a9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 15:18:35</sys_created_on>
+        <sys_id>da86ec10839782102bf7ca75eeaad3bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 15:18:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e625e05c835782102bf7ca75eeaad3a9"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e625e05c835782102bf7ca75eeaad3a9"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=9d0fdc94835782102bf7ca75eeaad367"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=9d0fdc94835782102bf7ca75eeaad367^sys_idNOT IN2781ec94835782102bf7ca75eeaad30a"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">d286ec10839782102bf7ca75eeaad3b6</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Send reminder email one day before Due date">9d0fdc94835782102bf7ca75eeaad367</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 14:56:49</sys_created_on>
+        <sys_id>2781ec94835782102bf7ca75eeaad30a</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="To Do">0c5daa8c83db42102bf7ca75eeaad31d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 15:22:29</sys_updated_on>
+        <ui_id>821a1f1b-a73a-499b-9fd6-27edeb0779f8</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=2781ec94835782102bf7ca75eeaad30a"/>
+    <sys_element_mapping action="delete_multiple" query="id=2781ec94835782102bf7ca75eeaad30a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>2781ec94835782102bf7ca75eeaad30a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 14:59:55</sys_created_on>
+        <sys_id>8942a0d8835782102bf7ca75eeaad385</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 14:59:55</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{1e8c70da-2360-4844-8b05-880d9d0411db.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=2781ec94835782102bf7ca75eeaad30a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2781ec94835782102bf7ca75eeaad30a"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=9d0fdc94835782102bf7ca75eeaad367^sys_idNOT IN1286ec10839782102bf7ca75eeaad3c0,1686ec10839782102bf7ca75eeaad3be,1686ec10839782102bf7ca75eeaad3bf,5286ec10839782102bf7ca75eeaad3bf,5e86ec10839782102bf7ca75eeaad3bf,9686ec10839782102bf7ca75eeaad3c0,9a86ec10839782102bf7ca75eeaad3bf,9e86ec10839782102bf7ca75eeaad3be,d286ec10839782102bf7ca75eeaad3c0,d686ec10839782102bf7ca75eeaad3bf,da86ec10839782102bf7ca75eeaad3be"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9d0fdc94835782102bf7ca75eeaad367</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{821a1f1b-a73a-499b-9fd6-27edeb0779f8.item.assigned_to.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 15:18:35</sys_created_on>
+        <sys_id>1286ec10839782102bf7ca75eeaad3c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do">0c5daa8c83db42102bf7ca75eeaad31d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 15:18:35</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>2ab01f4c-e2ee-4b6f-abc1-c20733645f47</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9d0fdc94835782102bf7ca75eeaad367</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{821a1f1b-a73a-499b-9fd6-27edeb0779f8.item.assigned_to.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 15:18:35</sys_created_on>
+        <sys_id>1686ec10839782102bf7ca75eeaad3be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do">0c5daa8c83db42102bf7ca75eeaad31d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 15:18:35</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>86f2953f-670a-4ab4-b277-3d739736124e</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9d0fdc94835782102bf7ca75eeaad367</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{821a1f1b-a73a-499b-9fd6-27edeb0779f8.item.to_do_item}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 15:18:35</sys_created_on>
+        <sys_id>1686ec10839782102bf7ca75eeaad3bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do">0c5daa8c83db42102bf7ca75eeaad31d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 15:18:35</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>1e55eb35-2d3c-4ba0-a145-760988061a0d</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9d0fdc94835782102bf7ca75eeaad367</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{821a1f1b-a73a-499b-9fd6-27edeb0779f8.item.assigned_to.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 15:18:35</sys_created_on>
+        <sys_id>5286ec10839782102bf7ca75eeaad3bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do">0c5daa8c83db42102bf7ca75eeaad31d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 15:18:35</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>88fa3179-ab9c-4e4f-bed6-243bc34b5bf1</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9d0fdc94835782102bf7ca75eeaad367</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{821a1f1b-a73a-499b-9fd6-27edeb0779f8.item.project}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 15:18:35</sys_created_on>
+        <sys_id>5e86ec10839782102bf7ca75eeaad3bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do">0c5daa8c83db42102bf7ca75eeaad31d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 15:18:35</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>98e2852c-b4c9-41e9-86b7-def83ea855f5</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9d0fdc94835782102bf7ca75eeaad367</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{821a1f1b-a73a-499b-9fd6-27edeb0779f8.item.to_do_item}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 15:18:35</sys_created_on>
+        <sys_id>9686ec10839782102bf7ca75eeaad3c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do">0c5daa8c83db42102bf7ca75eeaad31d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 15:18:35</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>fe9d31a7-fc22-49a1-807f-00bd96ed1cd2</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9d0fdc94835782102bf7ca75eeaad367</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{821a1f1b-a73a-499b-9fd6-27edeb0779f8.item.to_do_item}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 15:18:35</sys_created_on>
+        <sys_id>9a86ec10839782102bf7ca75eeaad3bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do">0c5daa8c83db42102bf7ca75eeaad31d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 15:18:35</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>798cec24-3d1d-4b9f-901b-1df007f30da2</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9d0fdc94835782102bf7ca75eeaad367</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{821a1f1b-a73a-499b-9fd6-27edeb0779f8.item}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 15:18:35</sys_created_on>
+        <sys_id>9e86ec10839782102bf7ca75eeaad3be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do">0c5daa8c83db42102bf7ca75eeaad31d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 15:18:35</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>f4e30835-3d8b-4756-a7fd-48b3bb8578b1</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9d0fdc94835782102bf7ca75eeaad367</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{821a1f1b-a73a-499b-9fd6-27edeb0779f8.item.assigned_to.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 15:18:35</sys_created_on>
+        <sys_id>d286ec10839782102bf7ca75eeaad3c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do">0c5daa8c83db42102bf7ca75eeaad31d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 15:18:35</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>30c8717b-2f22-4553-a386-511f51006ffa</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9d0fdc94835782102bf7ca75eeaad367</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{821a1f1b-a73a-499b-9fd6-27edeb0779f8.item.to_do_item}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 15:18:35</sys_created_on>
+        <sys_id>d686ec10839782102bf7ca75eeaad3bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do">0c5daa8c83db42102bf7ca75eeaad31d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 15:18:35</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>2e339deb-cb80-407c-9b38-afec0321dc9d</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9d0fdc94835782102bf7ca75eeaad367</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{821a1f1b-a73a-499b-9fd6-27edeb0779f8.item.assigned_to.user_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-05 15:18:35</sys_created_on>
+        <sys_id>da86ec10839782102bf7ca75eeaad3be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="To Do">0c5daa8c83db42102bf7ca75eeaad31d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-05 15:18:35</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>97dbd82a-6535-4eb3-85ef-e3c213f4df27</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=9d0fdc94835782102bf7ca75eeaad367"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_9d0fdc94835782102bf7ca75eeaad367"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_9d0fdc94835782102bf7ca75eeaad367"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_9d0fdc94835782102bf7ca75eeaad367"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_9d0fdc94835782102bf7ca75eeaad367"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=9d0fdc94835782102bf7ca75eeaad367"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=9d0fdc94835782102bf7ca75eeaad367"/>
+</record_update>
