@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Dates" section_id="35ae2b44835382102bf7ca75eeaad32c" sys_domain="global" table="x_1078619_to_do_to_do" version="3" view="User">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_on</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-05 11:14:26</sys_created_on>
+            <sys_id>bdae2b44835382102bf7ca75eeaad354</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Dates" display_value="Dates" name="x_1078619_to_do_to_do" sys_domain="global" view="067d2304835382102bf7ca75eeaad337">35ae2b44835382102bf7ca75eeaad32c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-05 11:14:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_updated_on</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-05 11:14:26</sys_created_on>
+            <sys_id>35ae2b44835382102bf7ca75eeaad355</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Dates" display_value="Dates" name="x_1078619_to_do_to_do" sys_domain="global" view="067d2304835382102bf7ca75eeaad337">35ae2b44835382102bf7ca75eeaad32c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-05 11:14:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-05 11:14:26</sys_created_on>
+            <sys_id>b9ae2b44835382102bf7ca75eeaad355</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Dates" display_value="Dates" name="x_1078619_to_do_to_do" sys_domain="global" view="067d2304835382102bf7ca75eeaad337">35ae2b44835382102bf7ca75eeaad32c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-05 11:14:26</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>closed_date</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-05 11:14:26</sys_created_on>
+            <sys_id>31ae2b44835382102bf7ca75eeaad356</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Dates" display_value="Dates" name="x_1078619_to_do_to_do" sys_domain="global" view="067d2304835382102bf7ca75eeaad337">35ae2b44835382102bf7ca75eeaad32c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-05 11:14:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Dates</caption>
+            <header>false</header>
+            <name>x_1078619_to_do_to_do</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-05 11:14:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>35ae2b44835382102bf7ca75eeaad32c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1078619_to_do_to_do</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="To Do" source="x_1078619_to_do">0c5daa8c83db42102bf7ca75eeaad31d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="To Do">0c5daa8c83db42102bf7ca75eeaad31d</sys_scope>
+            <sys_update_name>sys_ui_section_35ae2b44835382102bf7ca75eeaad32c</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-05 11:14:26</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="User" name="User">067d2304835382102bf7ca75eeaad337</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
